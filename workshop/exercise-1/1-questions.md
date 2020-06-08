@@ -24,14 +24,29 @@ Sources Used: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_
 ## Q3 - For each of the following cases, which tags will be needed?
 
 a) You want to create a webpage with the photos from your latest vacation
+For any webpage using html code, you will want to use the following format" 
+<!DOCTYPE html>
+<html>
+<head>
+<title> Insert Title </title>
+</head>
+<body>
+</body>
+</html>
+For inserting things such as photos or images you will want to use the 'img' tags. 
+
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
+If you want to create a website that lists links to other websites, you will want to use the 'a' tag. 
 
 c) You want to sell designer hats. You need to receive orders from the user.
+For this you would need to use tags such as 'ol' and it's child elements such as 'li' and 'ul'.
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
+A button cannot be a child of a button. The 'button' tag would allow you to display a clickable button.
 
 ## Q5 - What is the most generic tag you can use?
+The most generic tag you can use would be the 'div' tag. 
 
 ## Q6 - What do the following achronyms stand for?
 
@@ -69,6 +84,8 @@ The 'h1' tag would make text appear bigger than 'h3'.
 You would use self closing tags when the element you are using does not have any children. 
 
 ## Q11 - What is autofilling and why is it important?
+Autofilling is an attribute which specifies whether a form or an input field should have autofill on or not. When a user starts to type in a field, the browser could display options to fill in that field based on earlier values. 
+Source: https://www.w3schools.com/tags/att_autocomplete.asp#:~:text=Definition%20and%20Usage,based%20on%20earlier%20typed%20values.
 
 
 ## Q12 - Which attributes are always present in an img element?
